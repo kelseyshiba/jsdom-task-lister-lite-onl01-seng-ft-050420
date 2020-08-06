@@ -13,11 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
   });
 
-  // let complete = document.querySelector('#del-item');
-  // complete.addEventListener("click", function(e) {
-  //   complete.parentElement.remove();
-  // });
-
   let complete = document.querySelector('#tasks');
   complete.addEventListener("click", function(e) {
     complete.querySelector('li').remove();
